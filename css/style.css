@@ -28,8 +28,10 @@ header{
 
 .container{
     max-width: 70%;
-    margin: 40px auto;
+    margin: 0 auto;
     background-color: #ffffff;
+    margin-top: 40px;
+    border-bottom: 5px solid #f6f8f9;
 }
 
 .box-1{
@@ -39,10 +41,11 @@ header{
     border: 1px solid #c4cbd0;
     background-color: #14aaf5;
     border-radius: 5px;
-    
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 15px 5px 10px 10px;
+   
+    display: inline-block;
 
 }
 
@@ -54,6 +57,7 @@ header{
     border-radius: 5px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
 
     
 }
