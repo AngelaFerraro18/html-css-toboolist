@@ -33,6 +33,7 @@ header{
     max-width: 70%;
     margin: 0 auto;
     background-color: #ffffff;
+    
     /*margin-top: 40px;
     border-bottom: 5px solid #f6f8f9;*/
 }
@@ -74,6 +75,8 @@ header{
     color: #c4cbd0 ;
 }
 
+
+
 /*menù*/
 .simbolo-spunta{
     display: inline-block;
@@ -87,4 +90,37 @@ header{
     border-radius: 100%;
     border: 2px solid #4ccfb8;
     padding-left: 2px;
+}
+
+.pulsanti-menù{
+    height: 25px;
+    width: 55px;
+    background-color: #09a9ed;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 8px;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+.spunta-cross{
+    display: inline-block;
+    font-size: 8px;
+    color: #ff4141;
+}
+
+.spunta-cross nav{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 2px solid #ff4141;
+    padding-left: 2px;
+}
+
+subtitle{
+    margin-top: 17px;
 }
