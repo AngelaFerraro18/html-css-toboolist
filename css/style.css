@@ -1,26 +1,69 @@
+/*common*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*common*/
 body{
-    background-color: #f6f8f9;
+    background-color: #53a7d1;
+
 }
+
+/*modifiche all'intestazione*/
 
 header{
     background-color: #ffffff;
-}
-
-.container{
-    margin-left: 20px;
-    margin-top: 10px;
+    padding: 20px 0 20px 20px;
 }
 
 .logo{
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
     font-size: 50px;
     display: inline-block;
     }
+
+/*modifiche corpo della pagina*/
+
+.container{
+    max-width: 70%;
+    margin: 40px auto;
+    background-color: #ffffff;
+}
+
+.box-1{
+    
+    width: 70px;
+    height: 25px;
+    border: 1px solid #c4cbd0;
+    background-color: #14aaf5;
+    border-radius: 5px;
+    
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.box-2{
+    width: 85px;
+    height: 25px;
+    border: 1px solid #c4cbd0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.pulsante1{
+    margin: 5px 10px;
+    color: #ffffff ;
+}
+.pulsante2{
+    margin: 5px 10px;
+    color: #c4cbd0 ;
+}
+
