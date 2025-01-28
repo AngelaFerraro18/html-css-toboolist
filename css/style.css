@@ -114,6 +114,10 @@ h2 {
     padding-bottom: 15px;
 }
 
+p{
+    display: inline-block
+}
+
 .spunta-cross {
     display: inline-block;
     font-size: 8px;
@@ -145,6 +149,3 @@ h2 {
     background-color: #a3d116;
 }
 
-p{
-    display: inline-block
-}
