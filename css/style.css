@@ -95,13 +95,13 @@ header {
 
 .pulsanti-menù {
     height: 25px;
-    width: 55px;
+    width: 70px;
     background-color: #09a9ed;
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
     color: #ffffff;
-    padding: 8px;
+    padding: 5px;
 }
 
 h2 {
@@ -122,6 +122,20 @@ h2 {
     padding-left: 2px;
 }
 
-subtitle {
-    margin-top: 17px;
+.pulsanti-menù.colore-viola{
+    background-color: #af65e7;
 }
+
+.pulsanti-menù.colore-verde{
+    background-color: #2cc6ab;
+}
+.pulsanti-menù.colore-arancio{
+    background-color: #ff9b00;
+}
+.pulsanti-menù.colore-rosa{
+    background-color: #ec4a9d;
+   }
+.pulsanti-menù.colore-lime{
+    background-color: #a3d116;
+}
+
